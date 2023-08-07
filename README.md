@@ -10,7 +10,7 @@
   Каждому подходящему варианту назначается весовой коэффициент схожести. Чем больше слов в заголове статьи совпадает со словами из запроса,
   тем больший коэффициент присваивается этой статье. Результат сортируется по убыванию коэффициента схожести.
 
-  Функция возвращает массив ID ($post->ID) найденных статей, отсортированный по убыванию схожести
+  Функция возвращает массив ID ($post->ID) найденных статей, отсортированный по убыванию схожести.
 
   ### Использование функции:
 	1) Разместить функцию search_by_title() в общем файле функций темы WordPress functions.php
@@ -32,7 +32,7 @@
   Each matching option is assigned a similarity weighting factor. The more words in the header of an article match the words in the query,
   the higher the coefficient is assigned to that article. The result is sorted by decreasing similarity coefficient.
 
-  The function returns an array of IDs ($post->ID) of the found articles sorted by decreasing similarity coefficient
+  The function returns an array of IDs ($post->ID) of the found articles sorted by decreasing similarity coefficient.
 
   ### Function usage:
 	1) Put the search_by_title() function in the general WordPress theme functions.php file
