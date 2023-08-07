@@ -1,7 +1,7 @@
-#search_by_title()
-##Улучшенный поиск для WordPress
+# search_by_title()
+## Улучшенный поиск для WordPress
 
-  Автор: Андрей Осинцев
+  <b>Автор: Андрей Осинцев</b>
   https://github.com/andreyosintsev/
 
   Представленная функция позволяет производить поиск статьи в CMS WordPress на основе введённых пользователем поисковых запросов.
@@ -12,17 +12,18 @@
 
   Функция возвращает массив ID ($post->ID) найденных статей, отсортированный по убыванию схожести
 
-  Использование функции:
+  ### Использование функции:
 	1) Разместить функцию search_by_title() в общем файле функций темы WordPress functions.php
 	2) В файле вывода результатов поиска темы, обычно search.php, добавить:
- 
-  $searchstring = get_search_query();
-  $ids = search_by_title( get_search_query() );
+	   	
+     	$searchstring = get_search_query();
+		$ids = search_by_title( get_search_query() );
 
   $ids - это массив ID ($post->ID) с найденными статьями, пригодный для дальнейшей работы.
 
-##An improved search for wordpress
-  Author: Andrey Osintsev
+## An improved search for WordPress
+
+  <b>Author: Andrey Osintsev</b>
   https://github.com/andreyosintsev/
 
   The presented function allows you to search for an article in CMS WordPress based on the search queries entered by the user.
@@ -33,11 +34,11 @@
 
   The function returns an array of IDs ($post->ID) of the found articles sorted by decreasing similarity coefficient
 
-  Function usage:
+  ### Function usage:
 	1) Put the search_by_title() function in the general WordPress theme functions.php file
 	2) Add to the theme's search results output file search.php:
- 
-  $searchstring = get_search_query();
-  $ids = search_by_title( get_search_query() );
+
+		$searchstring = get_search_query();
+		$ids = search_by_title( get_search_query() );
 
   $ids is an array of IDs ($post->ID) with found articles, suitable for further work.
