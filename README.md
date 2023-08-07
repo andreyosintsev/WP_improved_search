@@ -1,5 +1,5 @@
-# search_by_title()
-## Улучшенный поиск для WordPress
+#search_by_title()
+##Улучшенный поиск для WordPress
 
   Автор: Андрей Осинцев
   https://github.com/andreyosintsev/
