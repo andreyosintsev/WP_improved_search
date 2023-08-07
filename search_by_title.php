@@ -30,6 +30,7 @@ function search_by_title ($search='') {
 
 	mb_internal_encoding("UTF-8"); 
 
+	//Удаление спецсимволов и пробелов в начале и конце строки
 	$search = stripslashes($search);
 	$search = htmlspecialchars($search);
 	$search = trim($search);
